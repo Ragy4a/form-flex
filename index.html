@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form with Flex</title>
+    <link rel="stylesheet" href="./assets/style/index.css">
+</head>
+<body>
+    <div class="main-container">
+        <header>
+            <h1>CREATE AN ACCOUNT</h1>
+            <p>We always keep your name and email address private.</p>
+            <div class="form-container">
+        </header>
+                <form>
+                    <div class="wrapper-container">
+                        <div class="input-container">
+                            <input type="text" name="first-name" id="name" placeholder="First name">
+                            <input type="text" name="display-name" id="display-name" placeholder="Display Name">
+                            <input type="password" name="password" id="password" placeholder="Password">
+                        </div>
+                        <div class="input-container">
+                            <input type="text" name="last-name" id="last-name" placeholder="Last name">
+                            <input type="email" name="email" id="email" placeholder="Email Adress">
+                            <input type="password" name="password" id="password-confirm" placeholder="Password Confirmation"> <!-- не уверен ли правильно ли я задал name и id для password confirmation-->
+                        </div>
+                    </div>
+                    <div class="radio-container">
+                        <div class="container">
+                            <div class="radio-inner-container">
+                                <input type="radio" name="radio" id="user-buyer">
+                                <label for="user-buyer">Join As a Buyer</label>
+                            </div>
+                            <p>I am looking for a Name, Logo or Taglline for my buisiness, brand or product.</p>
+                        </div>
+                        <div class="container">
+                            <div class="radio-inner-container">
+                                <input type="radio" name="radio" id="user-seller">
+                                <label for="user-seller">Join As a Creative or Marketplace Seller</label>
+                            </div>
+                            <p>I plan to submit name ideas, Logo designs or sell names in Domain Marketplace.</p>
+                        </div>
+                        <div class="checkbox-container">
+                            <input type="checkbox" name="checkbox" id="checkbox">
+                            <label for="checkbox">Allow Squadhelp to send marketing/promotional offers from time to time</label>
+                        </div>
+                        <div class="button-container">
+                            <input class="button-submit" type="submit" value="Create account">
+                        </div>
+                    </div>
+                </form>
+            </div>
+    </div>
+</body>
+</html>
