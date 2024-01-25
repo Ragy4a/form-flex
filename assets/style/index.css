@@ -30,16 +30,19 @@ header{
 }
 .wrapper-container{
     display: flex;
-    width: fit-content;
-    height: 100px;
+    width: 500px;
     /* outline: 2px solid purple; */
-    width: fit-content;
-    height: fit-content;
+    height: 170px;
     padding-left: 50px;
     margin-top: 20px;
 }
 .input-container{
-    margin-left: -10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 70px;
+    padding-right: 25px;
+    margin-left: -75px;
 }
 .input-container > input{
     border: none;
